@@ -29,7 +29,7 @@ Ferramenta de phishing para propósitos educacinais ;)
 
 - Just, Clone this repository -
 ```
-$ git clone git://github.com/faccboy/shellphish.git
+$ git clone https://github.com/faccboy/shellphish.git
 ```
 - Change to cloned directory and run `shellphish.sh` -
 ``` $ cd shellphish
