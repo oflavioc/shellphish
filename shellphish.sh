@@ -578,3 +578,9 @@ main_menu() {
                 { sleep 1; main_menu; }
         fi
 }
+
+## Main
+kill_pid
+dependencies
+install_ngrok
+main_menu
