@@ -11,39 +11,42 @@ Ferramenta de phishing para propósitos educacinais ;)
                        | |                      
                        |_|          </pre>
                                                                   
-</p> <p align="center">A beginners friendly, Automated phishing tool with 30+ templates.</p>
+</p> <p align = "center"> Uma ferramenta automatizada de phishing amigável para iniciantes com mais de 30 modelos. </p>
 
 ##
 
-### Features
-
-- Latest and updated login pages.
-- Mask URL support
-- Beginners friendly
-- Docker support (checkout `docker-legacy` branch)
-- Multiple tunneling options
+### Recursos
+- Páginas de login mais recentes e atualizadas.
+- Suporte para máscara de URL
+- User-friendly =)
+- Suporte Docker (checkout `docker-legacy` branch)
+- Múltiplas opções de tunelamento
 - Localhost
-- Ngrok (With or without hotspot)
+- Ngrok (com ou sem ponto de acesso)
 
-### Installation
-
-- Just, Clone this repository -
-```
+### Instalação
+- Basta clonar este repositório -
+`` `
 $ git clone https://github.com/faccboy/shellphish.git
-```
-- Change to cloned directory and run `shellphish.sh` -
-``` $ cd shellphish
-$ bash shellphish.sh ```
-- On first launch, It'll install the dependencies and that's it. `shellphish` is installed. 
-### Run on Docker
-```
-$ docker pull faccboy/shellphish
-$ docker run --rm -it faccboy/shellphish ```
-### Dependencies
-**`shellphish`** requires following programs to run properly -
-- `php` - `wget`
+`` `
+- Mude para o diretório clonado e execute `shellphish.sh` -
+`` `$ cd shellphish
+$ bash shellphish.sh `` `
+
+- No primeiro lançamento, instalará as dependências e pronto. `shellphish` está instalado.
+- 
+### Executar no Docker
+
+`` `
+$ docker pull faccboy / shellphish
+$ docker run --rm -it faccboy / shellphish ``
+
+### Dependências
+** `shellphish` ** requer os seguintes programas para funcionar corretamente -
+- `php` 
+- `wget`
 - `curl`
 - `git`
-> All the dependencies will be installed automatically when you run `shellphish` for the first time.
+> Todas as dependências serão instaladas automaticamente quando você executar `shellphish` pela primeira vez.
 
-> Supported Platform : **`Termux`**, **`Ubuntu/Debian/Kali`**, **`Arch Linux/Manjaro`**, **`Fedora`**
+> Plataformas suportadas: ** `Termux` **, **` Ubuntu / Debian / Kali` **, ** `Arch Linux / Manjaro` **, **` Fedora` **
