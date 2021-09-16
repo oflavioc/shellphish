@@ -49,8 +49,9 @@ kill_pid() {
 
 ## Banner
 banner() {
-        cat <<-EOF
-        
+
+cat <<-EOF
+
 ${ORANGE} .d8888b.  888               888 888 8888888b.  888      d8b          888      
 ${ORANGE}d88P  Y88b 888               888 888 888   Y88b 888      Y8P          888      
 ${ORANGE}Y88b.      888               888 888 888    888 888                   888      
